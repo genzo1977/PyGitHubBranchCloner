@@ -12,6 +12,5 @@ python PyGitHubBranchCloner.py
 ```
 
 ## Screenshots
-
-_
+\
 <img src="PyGitHubBranchCloner.png">
