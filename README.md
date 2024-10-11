@@ -10,3 +10,7 @@ pip install GitPython
 ```
 python PyGitHubBranchCloner.py
 ```
+
+## Screenshots
+
+<img src="PyGitHubBranchCloner.png">
