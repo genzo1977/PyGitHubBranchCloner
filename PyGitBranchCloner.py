@@ -30,7 +30,7 @@ def start_cloning():
     output_dir = directory_entry.get()
 
     if not repo_url or not output_dir:
-        messagebox.showwarning("Input Error", "Please provide both the repository URL and the output directory.")
+        messagebox.showwarning("Input Error", "Please provide both the repo URL and the output directory.")
         return
 
     # Start cloning in a separate thread to prevent UI blocking
@@ -43,11 +43,11 @@ def browse_directory():
         directory_entry.delete(0, tk.END)
         directory_entry.insert(0, selected_dir)
 
-# Set up the Tkinter GUI
+# Set up the tkinter GUI
 root = tk.Tk()
 root.title("GitHub Branch Cloner")
 
-# GitHub Repo URL label and text entry
+# GitHub repo URL label and text entry
 tk.Label(root, text="GitHub Repo URL:").grid(row=0, column=0, padx=10, pady=10, sticky=tk.W)
 url_entry = tk.Entry(root, width=50)
 url_entry.grid(row=0, column=1, padx=10, pady=10)
