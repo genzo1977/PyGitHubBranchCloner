@@ -45,7 +45,7 @@ def browse_directory():
 
 # Set up the tkinter GUI
 root = tk.Tk()
-root.title("GitHub Branch Cloner")
+root.title("PyGitBranchCloner")
 
 # GitHub repo URL label and text entry
 tk.Label(root, text="GitHub Repo URL:").grid(row=0, column=0, padx=10, pady=10, sticky=tk.W)
