@@ -10,6 +10,7 @@ pip install GitPython
 
 #### Create a virtual environment
 ```cd path\to\your\project```
+
 ```python -m venv venv_name```
 
 #### Activate the virtual environment
