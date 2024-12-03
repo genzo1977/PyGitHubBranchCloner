@@ -7,6 +7,11 @@ pip install GitPython
 ```
 
 ## Usage
+### Create a virtual environment
+ - ```cd path\to\your\project```
+
+
+
 ```
 python PyGitHubBranchCloner.py
 ```
